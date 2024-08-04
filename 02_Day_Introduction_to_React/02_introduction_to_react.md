@@ -307,7 +307,7 @@ Let us render more content. To render more content, the JSX element should have 
     <title>30 Days Of React Challenge</title>
   </head>
 
-  <body>
+  <body> 
     <div class="root"></div>
 
     <script

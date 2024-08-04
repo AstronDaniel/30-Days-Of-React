@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>react</title>
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+
+<body>
+    <div class="root"></div>
+
+    <script type="text/babel">
+
+        var style={ background:'#eee', } ;const rootElement=document.querySelector(".root"); const header=(
+        <header style={style}>
+            <h1>Hello Welcome to JSX React</h1>
+            <h2>Gettinng Started </h2>
+            <h3>js Library</h3>
+            <p>Astrav Daniel</p>
+            <time>August 4 2024</time>
+        </header>
+        ); var array=[1,2,3,4,5,"astrav","daniel"]; const listItems=array.map((item)=>
+        <li>{item}</li>); const main=(
+        <main>
+            <p>Lesson 1</p>
+            <ul>
+                <b>Requirements</b>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Js</li>
+                    <li>{listItems} {' '}</li>
+                </ul>
+            </ul>
+        </main>
+        ); const footer=(
+        <footer>
+            <p>copyright 2024</p>
+        </footer>
+        ); const app=(
+        <div>
+            {header} {main} {footer}
+        </div>
+        ); ReactDOM.render(app,rootElement)
+    </script>
+</body>
+
+</html>

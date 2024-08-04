@@ -67,7 +67,7 @@ A single or multiple functions, that can be exported and imported when needed, c
 In React we do not use link to access modules or packages, instead we import the module. Let's see how to import and export a module or modules:
 
 ```js
-// math.js
+// math.js 
 export const addTwo = (a, b) => a + b
 export const multiply = (a, b) => a * b
 export const subtract = (a, b) => a - b
