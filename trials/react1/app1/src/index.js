@@ -5,7 +5,7 @@ import profileImage from './images/profile2.JPG';
 import reactCode from './images/reactCode.png';
 
 const root = document.getElementById("root");
-var skills = ["HTML", "CSS", "JS", "React", "Node", "Python", "Java", "MYSQL", "Data Analyst", "Database Designer", "C", "C++","Grammatical Framework","Haskell","Git", "JQuery", "Bootstrap Css", "Data Structures ", "JSON", "Django" ];
+var skills = ["HTML", "CSS", "JS", "React", "Node", "Python", "Java", "MYSQL", "Data Analyst", "Database Designer", "C", "C++","Grammatical Framework","Haskell","Git", "JQuery", "Bootstrap Css", "Data Structures ", "JSON", "Django" ,"Web Developer"];
 
 const header = (
   <header className="top-header">
